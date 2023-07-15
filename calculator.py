@@ -87,7 +87,7 @@ def calculator():
                 print("结果为：", result)
             elif trig_choice == 4:
                 value = float(input("请输入值（取值范围为[-1,1]）："))
-                ifvalue < -1 or value > 1:
+                if value < -1 or value > 1:
                     print("值超出取值范围，请重新输入！")
                 else:
                     radian = math.asin(value)
